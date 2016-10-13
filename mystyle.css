@@ -7,7 +7,12 @@ Closed
 
 @font-face {
     font-family: Hs; 
-    src: url(Hallo-sans.otf); /*URL to font*/
+    src: local('Hallo-sans'); /*URL of font*/
+}
+
+p
+{
+  font-family:
 }
 strong
 {
