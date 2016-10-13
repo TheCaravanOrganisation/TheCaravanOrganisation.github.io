@@ -7,8 +7,13 @@ Closed
 
 @font-face {
     font-family: Hs; 
-    src: local('Hallo-sans'); /*URL of font*/
+    src: url('Hallo-sans.otf'); /*URL of font*/
 }
+@font-face {
+  font-family: Rl;
+  src:url("https://fonts.googleapis.com/css?family=Raleway");
+}
+  
 
 p
 {
@@ -17,14 +22,13 @@ p
 strong
 {
 	text-align: center;
-	font-family: "Hs";
+	font-family: Hs, serif;
 	padding 5px;
 
 }
 body 
-{
-	color:;
-	
+{	
+  font-family: Rl, sans-serif;
   	margin: 0;
   	padding: 0;
 	height: 100%;
@@ -48,10 +52,12 @@ ul
 	position: fixed;
 	top: 0;
 	width: 100%;
+  color: black;
 }	
 li
 {
-	float: left;
+	float: left; 
+   color: black;
 }
 li a
 {
