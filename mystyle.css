@@ -57,7 +57,7 @@ ul
 	position: fixed;
 	top: 0;
 	width: 100%;
-  color: black;
+  	color: black;
 }	
 li
 {
@@ -87,4 +87,5 @@ a
 a:hover
 {
 	color: #1912E8;
-}
+}				
+
