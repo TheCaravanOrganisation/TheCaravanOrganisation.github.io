@@ -1,12 +1,47 @@
-body 
+mystyle.css
+Details
+Activity
+No recorded activity
+Closed
+
+
+@font-face {
+    font-family: Hs; 
+    src: url('Hallo-sans.otf'); /*URL of font*/
+}
+@font-face {
+  font-family: Rl;
+  src:url("https://fonts.googleapis.com/css?family=Raleway");
+}
+  
+li a:link{
+  color: '#252526';
+}
+li a:visited{
+  color: 
+}
+pre
 {
+  font-family: Rl, sans-serif
+}
+strong
+{
+	text-align: center;
+	font-family: Hs, serif;
+	padding 5px;
+
+}
+body 
+{	
+  
+  font-family: Rl, sans-serif;
   	margin: 0;
-  	padding: 0;
 	height: 100%;
-	background-color: #4B93FF;
+	background-color: #f5f5dc;
 }
 h1
 {
+	font-family: "Hs";
 	font-weight: bold;
 	font-style: impact;
 	font-size: 40pt;
@@ -14,7 +49,7 @@ h1
 }
 ul
 {
-	ist-style-type: none;
+	list-style-type: none;
 	margin: 0;	
 	padding: 0;
 	overflow: hidden;
@@ -22,10 +57,12 @@ ul
 	position: fixed;
 	top: 0;
 	width: 100%;
+  color: black;
 }	
 li
 {
-	float: left;
+	float: left; 
+   color: black;
 }
 li a
 {
@@ -42,4 +79,12 @@ li a:hover
 {
 	background-color: #1912E8;
 	color: white;
+}
+a
+{
+	text-decoration: none;
+}
+a:hover
+{
+	color: #1912E8;
 }
