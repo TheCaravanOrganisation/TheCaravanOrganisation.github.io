@@ -1,0 +1,29 @@
+Overall Look and Feel of the Website:
+
+We want the website to have a simplistic yet sleek look, avoiding anything 3-D and staying away from rounded edges
+------------------------------------------------------------------------------------------------------------------
+
+Colours:
+
+We decided to go with blues and grays, as those represented cold colours, which was something we decided looked more 
+sophisticated.
+
+#3284FF
+#1912E8
+#f7f7f7
+--------------------------------------------------------------------------------------------------------------------
+
+Iconography:
+
+We wanted the icon to have a sleek feel to it as well, as opposed to something more 3-D. It is a very
+simplistic icon, which fits with our overall goal.
+--------------------------------------------------------------------------------------------------------------------
+
+Typography: 
+
+We are using Hallo Sans for our website
+--------------------------------------------------------------------------------------------------------------------
+
+Buttons:
+
+Buttons will be the colours described above, and 2 dimensional, changing colours when hovered over.
