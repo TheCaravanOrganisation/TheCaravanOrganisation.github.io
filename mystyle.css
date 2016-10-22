@@ -5,6 +5,12 @@ No recorded activity
 Closed
 
 
+
+@map {
+  height: 400px;
+  width: 100%;
+}
+
 @font-face {
     font-family: Hs; 
     src: url('Hallo-sans.otf'); /*URL of font*/

@@ -3,9 +3,35 @@
 <title>
 Caravan Car Company
 </title>
+    <style>
+      #map {
+        height: 400px;
+        width: 100%;
+       }
+    </style>
+ <body>
+    <h3>My Google Maps Demo</h3>
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var uluru = {lat: 45.4231064, lng: -75.6853269};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKvzq8uHE6c66aRYvanido3qHUalpSPq8&callback=initMap">
+    </script>
+  </body>
 <head>
     <link rel="shortcut icon" href="favicon.ico" />
-		<link rel="stylesheet" type="text/css" href="mystyle.css">
+		<link rel="stylesheet" type="text/css" href="stylesheet2.css">
 
 	</head>
   <body>    
@@ -17,8 +43,8 @@ Caravan Car Company
 			<li><a href="AboutUsPage.html">About us</a></li> 
       <li><a href="TheCars.html">The cars</a></li>
 		</ul>
-    <pre style="position:absolute; top:200px;">
-    this page will contain a integrated google map with dealer locations  
+    <pre style="position:absolute; top:500px;">
+        <h1>Here are some Caravan locations         </h1>
     </pre>
 
   </body>
