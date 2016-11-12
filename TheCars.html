@@ -46,7 +46,40 @@ Caravan Car Company
   text-decoration: none;
 }
 </style>
+  <script> 
 
+function changeImageG()
+{
+var img = document.getElementById("image");
+img.src="CarGreen.jpg";
+return false;
+}
+function changeImageBlu()
+{
+var img = document.getElementById("image");
+img.src="CarBlue.jpg";
+return false;
+}
+function changeImageR()
+{
+var img = document.getElementById("image");
+img.src="CarRed.jpg";
+return false;
+}
+function changeImageGr()
+{
+var img = document.getElementById("image");
+img.src="CarGrey.jpg";
+return false;
+}
+function changeImageBla()
+{
+var img = document.getElementById("image");
+img.src="CarBlack.jpg";
+return false;
+}
+
+</script>
 	</head>
   <body> 
 	<ul>
@@ -64,24 +97,29 @@ Caravan Car Company
  
     </pre>
     <pre style="position:absolute; top:400px;">
+    <img id="image" src="CarGreen.jpg" height="400" width="450"/>
     
     
     
     
     <p1 style="font-weight: bold;">Colour Options: </p1>
 
-<button class="button">Green</button> <button class="button button2">Blue</button> <button class="button button3">Red</button> <button class="button button4">Gray</button> <button class="button button5">Black</button>
+<button class="button" onclick="changeImageG();" >Green</button> <button class="button button2" onclick="changeImageBlu();">Blue</button> <button class="button button3" onclick="changeImageR();">Red</button> <button class="button button4" onclick="changeImageGr();">Gray</button> <button class="button button5" onclick="changeImageBla();">Black</button>
 
 
     </pre>
-    <pre style="position:absolute; top:300px; right: 400px">
-    <p1 style="font-weight: bold;">Built in Features: </p1>
-    GPS
-    Satellite Radio
-    Blind Spot Monitoring
-    Automatic Emergency Brakes
-    Forward-Collision Warning
-    Spare Tire
+    <pre style="position:absolute; top:300px; right: 500px">
+    <p1 style="font-weight: bold;">Built in Features: </p1>        
+    
+    - Satellite Radio  
+    
+    - Sound system
+    
+    - Automated Driving
+    
+    - In car entertainment
+    
+    - Spare Tire
     </pre>
     
 
